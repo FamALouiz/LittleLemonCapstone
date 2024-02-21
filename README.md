@@ -80,10 +80,10 @@ Follow these steps to get the project up and running on your local machine:
     - `GET/`: Retrieve all menu items.
     - `POST/`: Create a new menu item. Body: `{"title": "Menu 2", "price": "123.00", "inventory": 3}`
     - `menu/{id}/`: Retrieve a specific menu item by ID.
-  - `booking/tables/`
-    - `GET/`: Retrieve all bookings.
-    - `POST/`: Create a new booking. Body: `{"name": "Fam", "no_of_guests": 4, "booking_date": "2024-12-22"}`
   - `api-token-auth/`: Endpoint for authentication token.
+- `booking/tables/`
+  - `GET/`: Retrieve all bookings.
+  - `POST/`: Create a new booking. Body: `{"name": "Fam", "no_of_guests": 4, "booking_date": "2024-12-22"}`
 
 ## Testing
 To run the test scripts, use the following Django testing command:
