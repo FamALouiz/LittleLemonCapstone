@@ -45,17 +45,20 @@ Follow these steps to get the project up and running on your local machine:
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/meta-backend-capstone.git
+    git clone https://github.com/FamALouiz/LittleLemonCapstone.git
     ```
 
 2. **Navigate to the Project Directory:**
     ```bash
-    cd meta-backend-capstone
+    cd littlelemon
     ```
 
 3. **Install Python Dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install django
+    pip install djoser
+    pip install djangorestframework
+    pip install mysqlclient
     ```
 
 4. **Apply Database Migrations:**
