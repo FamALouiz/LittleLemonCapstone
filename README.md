@@ -94,5 +94,3 @@ python manage.py test
 ## Contributing
 Contributions are welcome! Feel free to open issues and pull requests for bug fixes, feature requests, or general improvements.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
